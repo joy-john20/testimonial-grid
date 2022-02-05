@@ -14,8 +14,161 @@ $mainFont: 'Barlow Semi Condensed', sans-serif;
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     font-family: $mainFont;
     font-size: 13px;
 }
 
+.wrapper {
+    background-color: $lightGrayishBlue;
+    width: 100%;
+}
+
+.main-box {
+    margin: 0 auto;
+    width: 90vw;
+    padding: 5rem 0 5rem 0;
+}
+
+.box {
+    padding: 2rem;
+    margin: 2rem 0 2rem 0;
+    border-radius: 1rem;
+    box-shadow: 14px 15px 38px -20px rgba(0,0,0,0.64);
+    .profile {
+        display: flex;
+        justify-content: start;
+        margin: 0;
+        .img-cont {
+            margin-right: 1em;
+            border-radius: 50%;
+            img {
+                border: 3px solid $lightGray;
+                border-radius: 50%;
+            }
+        }
+        .profile-name {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1 {
+                font-size: 15px;
+                font-weight: 500;
+                margin-bottom: .25rem;
+            }
+            .title {
+                font-size: 12px;
+                font-weight: 500;
+                margin-top: .25rem;
+                opacity: 50%;
+            }
+        }
+    }
+
+    .main-p {
+        font-weight: 600;
+        font-size: 20px;
+        text-align: justify;
+        margin: 1.5rem 0;
+    }
+
+    .sub-p {
+        font-weight: 500;
+        font-size: 13px;
+        color: $lightGray;
+        text-align: justify;
+        margin: 1rem 0;
+    }
+}
+
+.vio {
+    background-color: $modViolet;
+    color: #fff;
+}
+
+.gray {
+    background-color: $darkGrayishBlue;
+    color: #fff;
+}
+
+.white {
+    background-color: #fff;
+    color: $darkGrayishBlue;
+
+    .sub-p {
+        color: $darkGrayishBlue;
+        opacity: 0.7;
+    }
+}
+
+.dark-blue {
+    background-color: $darkBlakishBlue;
+    color: #fff;
+}
+
+.attribution{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 376px)  {
+    .main-box {
+        width: 70vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 3rem 0 3rem 0;
+
+
+        .box {
+            margin: 0;
+
+            h1 {
+                font-size: 16px;
+            }
+            .title {
+                font-size: 13px;
+            }
+            .main-p {
+                font-size: 22px;
+                text-align: left;
+                margin-top: 0.5rem;
+            }
+            .sub-p {
+                font-size: 15px;
+                margin: 0;
+            }
+        }
+
+        .left-boxes {
+            width: 74%;
+
+            .left-top {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 1.5rem;
+            }
+
+            .left-bottom {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .box-1{
+                width: 65.3333%;
+            }
+
+            .box-2 {
+                width: 32.3333%;
+            }
+        }
+        .right-box {
+                width: 24%;
+        }
+    }
+
+    .attribution {
+        text-align: center;
+    }
+}
