@@ -1,0 +1,13 @@
+/* Colors */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+/* Basic Setting */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+/* Colors */
+$modViolet: hsl(263, 55%, 52%);
+$darkGrayishBlue: hsl(217, 19%, 35%);
+$darkBlakishBlue: hsl(219, 29%, 14%);
+$lightGray: hsl(0, 0%, 81%);
+$lightGrayishBlue: hsl(210, 46%, 95%);
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+$mainFont: 'Barlow Semi Condensed', sans-serif;
+
+/* Basic Setting */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    font-family: $mainFont;
+    font-size: 13px;
+}
+
